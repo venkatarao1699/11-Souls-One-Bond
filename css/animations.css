@@ -1,0 +1,200 @@
+/* ==========================
+FLOATING HEARTS
+========================== */
+
+.heart{
+
+position:fixed;
+
+bottom:-50px;
+
+font-size:24px;
+
+pointer-events:none;
+
+animation:floatHeart linear forwards;
+
+z-index:9999;
+
+}
+
+@keyframes floatHeart{
+
+0%{
+
+transform:translateY(0) rotate(0deg);
+
+opacity:1;
+
+}
+
+100%{
+
+transform:translateY(-110vh) rotate(360deg);
+
+opacity:0;
+
+}
+
+}
+
+/* ==========================
+SPARKLES
+========================== */
+
+.spark{
+
+position:fixed;
+
+width:6px;
+
+height:6px;
+
+border-radius:50%;
+
+background:white;
+
+box-shadow:
+
+0 0 12px white,
+
+0 0 20px cyan;
+
+animation:sparkMove linear forwards;
+
+pointer-events:none;
+
+z-index:9999;
+
+}
+
+@keyframes sparkMove{
+
+0%{
+
+transform:translateY(0);
+
+opacity:1;
+
+}
+
+100%{
+
+transform:translateY(-100vh);
+
+opacity:0;
+
+}
+
+}
+/* ===========================
+FIREWORKS
+=========================== */
+
+.firework{
+
+position:fixed;
+
+font-size:42px;
+
+pointer-events:none;
+
+z-index:99999;
+
+animation:boom 2s ease-out forwards;
+
+}
+
+@keyframes boom{
+
+0%{
+
+transform:scale(0);
+
+opacity:1;
+
+}
+
+50%{
+
+transform:scale(1.8);
+
+opacity:1;
+
+}
+
+100%{
+
+transform:scale(3);
+
+opacity:0;
+
+}
+
+}
+/* ===========================
+KEERTHI MODE
+=========================== */
+
+body.keerthi-mode{
+
+background:linear-gradient(
+135deg,
+#2b0f24,
+#4d1638,
+#7d2a56,
+#ff5fa2
+);
+
+background-size:400% 400%;
+
+animation:aurora 12s ease infinite;
+
+}
+
+.petal{
+
+position:fixed;
+
+top:-30px;
+
+font-size:24px;
+
+pointer-events:none;
+
+z-index:99999;
+
+animation:petalFall linear forwards;
+
+}
+
+@keyframes petalFall{
+
+0%{
+
+transform:translateY(-20px) rotate(0deg);
+
+opacity:1;
+
+}
+
+100%{
+
+transform:translateY(110vh) rotate(720deg);
+
+opacity:0;
+
+}
+
+}
+@keyframes pulse{
+    0%{
+        transform: scale(1);
+    }
+    50%{
+        transform: scale(1.05);
+    }
+    100%{
+        transform: scale(1);
+    }
+}

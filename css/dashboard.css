@@ -1,0 +1,59 @@
+/* Rahul */
+.theme-blue{
+    --primary:#4f8cff;
+    --secondary:#00d4ff;
+}
+
+/* Rakesh */
+.theme-purple{
+    --primary:#8b5cf6;
+    --secondary:#c084fc;
+}
+
+/* Vikram */
+.theme-green{
+    --primary:#16a34a;
+    --secondary:#22c55e;
+}
+
+/* Saketh */
+.theme-orange{
+    --primary:#f97316;
+    --secondary:#fb923c;
+}
+
+/* Saihithi */
+.theme-pink{
+    --primary:#ec4899;
+    --secondary:#f472b6;
+}
+
+/* Gayatri */
+.theme-rose{
+    --primary:#e11d48;
+    --secondary:#fb7185;
+}
+
+/* Anusha */
+.theme-red{
+    --primary:#dc2626;
+    --secondary:#ef4444;
+}
+
+/* Dharmik */
+.theme-dark{
+    --primary:#111827;
+    --secondary:#374151;
+}
+
+/* Swathi */
+.theme-sky{
+    --primary:#0ea5e9;
+    --secondary:#38bdf8;
+}
+
+/* Keerthi */
+.theme-blossom{
+    --primary:#ff69b4;
+    --secondary:#ffc0cb;
+}

@@ -1,0 +1,392 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>11 Souls • One Bond</title>
+
+    <meta name="theme-color" content="#7C3AED">
+
+    <!-- Google Font -->
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+
+    <!-- Font Awesome -->
+    <link rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"/>
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/splash.css">
+    <link rel="stylesheet" href="css/login.css">
+    <link rel="stylesheet" href="css/dashboard.css">
+    <link rel="stylesheet" href="css/gallery.css">
+    <link rel="stylesheet" href="css/cards.css">
+    <link rel="stylesheet" href="css/navbar.css">
+    <link rel="stylesheet" href="css/themes.css">
+    <link rel="stylesheet" href="css/animations.css">
+    <link rel="stylesheet" href="css/responsive.css">
+
+</head>
+
+<body>
+
+<!-- ================= Splash Screen ================= -->
+
+<div id="splashScreen">
+
+    <div class="logoCircle">
+
+        ❤️
+
+    </div>
+
+    <h1>
+
+        11 Souls • One Bond
+
+    </h1>
+
+    <p>
+
+        Every friendship has a story.
+        <br>
+        This is ours.
+
+    </p>
+
+</div>
+
+<!-- ================= Animated Background ================= -->
+
+<div class="background">
+
+    <div class="gradient"></div>
+
+    <div id="particles"></div>
+
+</div>
+
+<!-- ================= Login Page ================= -->
+
+<section id="loginPage">
+
+<div class="glassCard">
+
+<h2>
+
+Welcome 👋
+
+</h2>
+
+<p>
+
+Happy Friendship Day ❤️
+
+</p>
+
+<div class="inputBox">
+
+<i class="fa-solid fa-phone"></i>
+
+<input
+type="tel"
+id="phone"
+placeholder="Enter Mobile Number">
+
+</div>
+
+<div class="inputBox">
+
+<i class="fa-solid fa-user"></i>
+
+<input
+type="text"
+id="username"
+placeholder="Name (Optional)">
+
+</div>
+
+<button id="loginBtn">
+
+Continue
+
+<i class="fa-solid fa-arrow-right"></i>
+
+</button>
+
+</div>
+
+</section>
+
+<!-- Dashboard starts in Part 2 -->
+ <!-- ================= Dashboard ================= -->
+
+<section id="dashboardPage" style="display:none;">
+
+    <!-- Header -->
+
+    <header class="topHeader">
+
+        <div>
+
+            <h2 id="welcomeName">
+
+                Welcome ❤️
+
+            </h2>
+
+            <p id="friendQuote" class="friendQuote"">
+
+                Good friends are like stars...
+
+            </p>
+
+        </div>
+        
+        
+
+    </header>
+    <div class="searchBox">
+    <input
+        type="text"
+        id="friendSearch"
+        placeholder="🔍 Search Friend...">
+</div>
+
+    <!-- Friendship Card -->
+
+    <div class="friendCard">
+
+        <h3>Friendship Score</h3>
+
+        <h1 id="friendshipScore">0%</h1>
+
+        <div class="progress">
+
+            <div id="progressFill" class="progressFill"></div>
+
+        </div>
+
+    </div>
+
+    <!-- Menu -->
+
+    <div class="menuGrid">
+
+        <div class="menuCard" id="galleryBtn">
+
+            <i class="fa-solid fa-images"></i>
+
+            <span>Memories</span>
+
+        </div>
+
+        <div class="menuCard" id="timelineBtn">
+    <i class="fa-solid fa-clock-rotate-left"></i>
+    <span>Timeline</span>
+</div>
+
+        <div class="menuCard">
+
+            <i class="fa-solid fa-music"></i>
+
+            <span>Music</span>
+
+        </div>
+
+        <div class="menuCard" id="letterBtn">
+
+            <i class="fa-solid fa-envelope"></i>
+
+            <span>Letter</span>
+
+        </div>
+
+        <div class="menuCard" id="giftBtn">
+
+            <i class="fa-solid fa-gift"></i>
+
+            <span>Surprise</span>
+
+        </div>
+
+        <div class="menuCard" id="certificateBtn" >
+
+            <i class="fa-solid fa-award"></i>
+
+            <span>Certificate</span>
+
+        </div>
+
+    </div>
+
+    <!-- Gallery Container -->
+
+    <section id="gallerySection">
+
+        <h2>📸 Our Memories</h2>
+
+        <div id="galleryContainer"></div>
+
+    </section>
+
+</section>
+<!-- Letter Modal -->
+
+<div id="letterModal" class="letterModal">
+    <div class="letterBox">
+
+        <span id="closeLetter">&times;</span>
+
+        <h2>💌 A Letter For You</h2>
+
+        <p id="letterContent"></p>
+
+    </div>
+</div>
+
+</div>
+<!-- Surprise Modal -->
+
+
+
+</div>
+<!-- Certificate -->
+
+<div id="certificateModal" class="modal">
+
+<div class="certificate">
+
+<h1>
+
+🏆 Friendship Certificate
+
+</h1>
+
+<h2 id="certificateName">
+
+Friend Name
+
+</h2>
+
+<p>
+
+For being one of the most amazing friends.
+
+Happy Friendship Day ❤️
+
+</p>
+
+<h3>
+
+Created by
+
+Venkata Rao
+
+</h3>
+
+<button onclick="closeCertificate()">
+
+Close
+
+</button>
+
+</div>
+
+</div>
+<button id="logoutBtn" class="logoutBtn">
+    🚪 Logout
+</button>
+
+
+<!-- Bottom Navigation -->
+
+<nav id="bottomNav" style="display: none;">
+
+    <button>🏠</button>
+
+    <button>📷</button>
+
+    <button>🎵</button>
+
+    <button>💌</button>
+
+    <button>🎁</button>
+
+</nav>
+
+
+
+<div id="musicPlayer" style="display: none;">
+
+    <button id="musicBtn">
+
+        ▶️
+
+    </button>
+
+    <span id="musicText">
+
+        Music
+
+    </span>
+
+</div>
+<div class="heroCard">
+
+    <h1 id="friendName"></h1>
+
+    <h2 id="friendScore"></h2>
+
+    <p class="heroQuote">
+        True friendship isn't about being inseparable.
+        It's about staying connected even when apart.
+    </p>
+
+    <div class="heroStats">
+
+        <div>
+            📸
+            <span id="photoCount"></span>
+        </div>
+
+        <div>
+            💌
+            1 Letter
+        </div>
+
+    </div>
+
+</div>
+<div id="thankYouModal" style="display:none;"></div>
+<button id="themeToggle">🌙</button>
+
+<audio id="bgMusic" loop>
+    <source src="assets/music/friendship.mp3" type="audio/mpeg">
+</audio>
+
+
+
+
+<!-- JS -->
+
+<script src="js/config.js"></script>
+<script src="js/friends.js"></script>
+<script src="js/themes.js"></script>
+<script src="js/login.js"></script>
+<script src="js/dashboard.js"></script>
+<script src="js/gallery.js"></script>
+<script src="js/music.js"></script>
+<script src="js/surprise.js"></script>
+<script src="js/certificate.js"></script>
+<script src="js/fireworks.js"></script>
+<script src="js/special.js"></script>
+<script src="js/letter.js"></script>
+<script src="js/timeline.js"></script>
+<script src="js/thankyou.js"></script>
+
+<script src="js/app.js"></script>
+
+</body>
+</html>
