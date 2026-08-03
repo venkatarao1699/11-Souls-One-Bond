@@ -516,7 +516,7 @@ Happy Friendship Day, and thank you for always being such a wonderful friend. ‚ù
 
 
 {
-    phone:"63044733571",
+    phone:"6304473571",
     name:"MANASWINI",
     theme:"aurora",
     folder:"MANASWINI",
