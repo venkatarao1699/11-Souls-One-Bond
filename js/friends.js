@@ -513,4 +513,94 @@ Happy Friendship Day, and thank you for always being such a wonderful friend. �
 },
 
 
+
+
+{
+    phone:"63044733571",
+    name:"MANASWINI",
+    theme:"aurora",
+    folder:"MANASWINI",
+ 
+    special:true,
+    theme:"blossom",
+     score:95,
+      quoteColor:"#FFFFFF",
+
+    quote:"Some people make life brighter 🌸",
+
+    photos:0,
+
+     letter:`Dear Manu,
+
+Happy Friendship Day!
+
+From being just Instagram friends in 2019 to becoming one of the most genuine people in my life, our journey has been truly special. Even though we were miles apart, our friendship always felt close. Meeting you after six long years was one of the happiest moments, and having dinner together while laughing about our old memories made that day unforgettable.
+
+You are one of the most mature, kind, sweet, and brave people I know. You always understand others, never take anything for granted, and your smile has a way of making every conversation better. Your pure heart is something I genuinely admire.
+
+Thank you for changing one of my biggest misconceptions. You taught me that not every female friend is fake, and because of you, I started believing in genuine friendships again. That's something I'll always be grateful for.
+
+Stay the same beautiful soul you are. I wish you endless happiness, success, and countless reasons to smile. No matter where life takes us, our friendship will always have a special place in my heart.
+
+Happy Friendship Day once again! ❤️`,
+
+
+    timeline:[
+       "📱 2019 - Our beautiful friendship began on Instagram.",
+    "💬 Years passed, but our bond kept growing stronger through every conversation.",
+    "🤗 After six long years, we finally met in person, and it felt like meeting an old friend.",
+    "🍽️ Had dinner together, laughed at our old memories, and created new unforgettable ones.",
+    "🌸 You taught me that genuine female friendships truly exist, and I'll always be thankful for that."
+],
+    suprise: `One promise is still waiting to be fulfilled. 
+    ❤️ I once promised that we would go to our hometown together, but I had to leave before you.
+     I haven't forgotten that promise. One day, we'll travel home together and finally complete it. 🤝✨`,
+
+},
+
+{
+    phone:"9391032699",
+    name:"CHANDRIKA",
+    theme:"lavender",
+    folder:"CHANDRIKA",
+  
+    special:true,
+    theme:"sky",
+     score:97,
+     quoteColor:"#FFFFFF",
+
+    quote:"Friendship never ends 💜",
+
+    photos:0,
+
+    letter:`Dear Chandrika,
+
+Happy Friendship Day!
+
+Meeting you during the Accenture joining process was one of the best things that happened to me. From being company mates to becoming good friends, we've shared a wonderful journey together. Working on so many projects with you made every challenge easier and every success more meaningful.
+
+You are a kind, intelligent, and wonderful listener. I always appreciate the patience with which you listen to everything I say and the way you support me whenever I need it.
+
+Thank you for teaching me one of the most valuable life lessons—how to manage money wisely and not spend unnecessarily. That advice will always stay with me because it's something that helps not only today but throughout life.
+
+I truly value our friendship and hope we continue creating more memories together. Wishing you all the happiness, success, and achievements you deserve.
+
+Happy Friendship Day once again! ❤️,
+
+Muppana Venkata Rao ❤️`,
+
+
+    timeline:[
+ "🏢 Met during the Accenture joining process.",
+    "💻 Worked together on many projects and learnt a lot from each other.",
+    "💰 You taught me how to manage finances wisely and avoid unnecessary spending.",
+    "🌟 Our friendship became stronger with every conversation and project.",
+],
+    suprise: `If everything goes well in life, I hope one day we'll work together in Chennai. 
+    It'll be another beautiful chapter in our friendship, and I'm already looking forward to that day. ❤️✨`,
+
+},
+
+
+
 ];
